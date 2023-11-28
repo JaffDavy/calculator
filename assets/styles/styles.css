@@ -1,0 +1,147 @@
+:root {
+  --primary-font-color: white;
+  --secondary-font-color: black;
+  --primary-background-color: black;
+  --secondary-background-color: #333;
+}
+
+.master {
+  background-color: var(--primary-background-color);
+  border-radius: 10px;
+  color: var(--primary-font-color);
+  padding: 10px;
+}
+
+#header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#value-space {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: right;
+  font-size: 70px;
+}
+
+.buttons1 {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.gray-button1 {
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 10px;
+  color: var(--secondary-font-color);
+}
+
+.gray-button2 {
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 10px;
+  color: var(--secondary-font-color);
+}
+
+.gray-button3 {
+  border-radius: 100px;
+  padding: 10px;
+  color: var(--secondary-font-color);
+}
+
+.orange-button {
+  font-size: 24px;
+  border-radius: 50px;
+  padding: 10px;
+  color: var(--primary-font-color);
+  background-color: orange;
+}
+
+.buttons2 {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.dark-button1 {
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 20px;
+  height: 13vh;
+  width: 20vw;
+  color: var(--primary-font-color);
+  background-color: var(--secondary-background-color);
+}
+
+.dark-button2 {
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 20px;
+  height: 13vh;
+  width: 20vw;
+  color: var(--primary-font-color);
+  background-color: var(--secondary-background-color);
+}
+
+.dark-button3 {
+  font-size: 30px;
+  border-radius: 100px;
+  padding: 20px;
+  height: 13vh;
+  width: 20vw;
+  color: var(--primary-font-color);
+  background-color: var(--secondary-background-color);
+}
+
+.orange-button2 {
+  font-size: 24px;
+  border-radius: 50px;
+  padding: 10px;
+  color: var(--primary-font-color);
+  background-color: orange;
+}
+
+.last-dark-button1 {
+  font-size: 30px;
+  border-radius: 100px;
+  padding: 20px;
+  height: 13vh;
+  text-align: left;
+  width: 43vw;
+  color: var(--primary-font-color);
+  background-color: var(--secondary-background-color);
+}
+
+@media (min-width: 768px) {
+  .orange-button2 {
+    width: 20vw;
+  }
+
+  .orange-button {
+    width: 20vw;
+  }
+
+  .gray-button1 {
+    width: 20vw;
+  }
+
+  .gray-button2 {
+    width: 20vw;
+  }
+
+  .gray-button3 {
+    width: 20vw;
+  }
+
+  #value-space {
+    font-size: 100px;
+  }
+
+  .last-dark-button1 {
+    width: 45vw;
+  }
+}
